@@ -7,4 +7,8 @@ button {
       align-self: center;
   margin: 0 auto;
 }
+
+.carousel-indicator {
+  color: blue;
+}
 /*# sourceMappingURL=MyCarousel.css.map */
