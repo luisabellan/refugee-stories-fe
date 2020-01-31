@@ -1,10 +1,12 @@
 import React from "react";
 
 
-export const Stories = () => {
+const Stories = () => {
     return(
         <div>
             <button>Stories</button> 
         </div>
     )
 };
+
+export default Stories;
