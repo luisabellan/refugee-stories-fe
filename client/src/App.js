@@ -1,15 +1,19 @@
 import React from "react";
 import SignIn from "./components/signin/SignIn";
 import PrivateRoute from "./utils/PrivateRoute"
+
 import {Home} from "./components/home/Home"
 import {Stories} from "./components/stories/Stories"
 import { Link } from 'react-router-dom'
 import { Route } from 'react-router-dom'
+
+
 function App() {
   return (
     <div>
-      {/* <SignIn /> */}
-      
+      {/*<SignIn />*/}
+      <MyCarousel />
+
 
       <Link to='/'>
         Home
