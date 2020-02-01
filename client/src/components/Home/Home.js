@@ -31,19 +31,15 @@ const Home = () => {
     margin-bottom: 3rem;
     z-index: 10;
     font-family: "Roboto";
-   
-
   `;
 
   const Form = styled.form`
     z-index: 10;
-  
   `;
 
   const Paragraph = styled.p`
     margin-top: -5rem;
     margin-bottom: 3rem;
-    
 
     @media (min-width: 600px) {
       font-size: 1.2rem;
@@ -61,12 +57,14 @@ const Home = () => {
         <Paragraph>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta
           sequi reprehenderit tempore dolores at incidunt tempora ipsum eveniet
-          illo, dolor sed dolorum reprehenderit tempore dolores at incidunt tempora ipsum eveniet
-          illo, dolor sed placeat, delectus adipisci consequuntur minus!
-          Molestiae, nostrum!
+          illo, dolor sed dolorum reprehenderit tempore dolores at incidunt
+          tempora ipsum eveniet illo, dolor sed placeat, delectus adipisci
+          consequuntur minus! Molestiae, nostrum!
         </Paragraph>
         <Form action="./stories">
-          <StyledButton className="button" type="submit" value="Read More">READ MORE</StyledButton> 
+          <StyledButton className="button" type="submit" value="Read More">
+            READ MORE
+          </StyledButton>
         </Form>
       </WrapperDiv>
     </div>
