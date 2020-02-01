@@ -36,6 +36,8 @@ Contact the authors:
 # License
 [MIT] (https://opensource.org/licenses/MIT);
 
-MIT © [squarerobin](Luis Abellan);
-MIT © [anam2091](Anam);
+MIT © [squarerobin](Luis Abellan)
+
+MIT © [anam2091](Anam)
+
 MIT © [nezlobnaya](Vlad Burlutskiy);
