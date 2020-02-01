@@ -6,18 +6,24 @@ Deployed here:https://client-mauve-now.sh
 
 [Refugee Stories - Product Canvas - Jan 2020 - Build Weeks](https://docs.google.com/document/d/11ZJG2zr8831Q2Dzesgtmju5iIGY1WCIAU19eFfR0NRE/edit?usp=sharing)
 
+
 Note: This is an **edit** link, eventually we may want to make it either a view or comment...
-# Built using
+## Built using
 - [React](https://reactjs.org/)
 - [MaterialUI](https://material-ui.com/)
 - [Reactstrap](https://reactstrap.github.io/)
 - [Styled Components](https://styled-components.com/)
 
 
-# Features
+
+
+## Features
 Pages: Home, Stories and Sign-In
 
-# Installation
+
+
+
+## Installation
 ```  
 cd client
 npm install
@@ -26,7 +32,8 @@ npm start
 ```
 
 
-# Contribute
+
+## Contribute
 Contact the authors:
 * https://github.com/squarerobin
 * https://github.com/anam2091
@@ -34,7 +41,8 @@ Contact the authors:
 
 
 
-# License
+
+## License
 [MIT] (https://opensource.org/licenses/MIT);
 
 MIT © [Luis Abellan](https://github.com/squarerobin)
