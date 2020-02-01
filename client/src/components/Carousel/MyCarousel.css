@@ -1,25 +1,35 @@
+@media (min-width: 300px) {
+  html body h3.carousel-caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 html body .carousel-indicators {
   background-color: orange;
   color: black;
-  width: auto;
+  max-width: auto;
   margin: 0 auto;
 }
 
 html body .carousel-item {
-  max-width: 100%;
-  max-height: 100%;
+  min-height: 50vh;
   height: 50vh;
 }
 
 html body .carousel-item > img {
   width: 100%;
+  min-height: 50vh;
 }
 
-html body .carousel-control-prev, html body .carousel-control-next {
+html body .carousel-control-prev,
+html body .carousel-control-next {
   cursor: pointer;
 }
 
-html body .carousel-item, html body .carousel-item.active {
+html body .carousel-item,
+html body .carousel-item.active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

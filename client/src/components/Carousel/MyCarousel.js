@@ -54,13 +54,8 @@ const MyCarousel = () => {
     setActiveIndex(newIndex);
   };
 
-  //styles for slides
 
-  /*TODO modify colors, check palette*/
-  const ReadMoreButton = styled.button`
-    background-color: orange;
-    color: white;
-  `;
+
 
   const slides = items.map(item => {
     return (
