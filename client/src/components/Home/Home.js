@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "../Carousel/MyCarousel.js";
 import Button from "@material-ui/core/Button";
 import styled from "styled-components";
+import "./home.css"
 
 const Home = () => {
 
