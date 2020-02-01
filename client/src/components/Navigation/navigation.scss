@@ -1,0 +1,64 @@
+.navigation {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #fef9c7;
+    font-family: Ubuntu;
+    color: #7e685a;
+    padding: 2rem;
+    @media (min-width: 600px){
+
+        flex-direction: row;
+    }
+    h1{
+        display: flex;
+        align-self: center;
+        font-size: 1.7rem;
+        text-align: center;
+        flex: 1;
+
+        @media (min-width: 600px){
+
+            margin-right: 2rem;
+        }
+    }
+
+    a{
+        display: flex;
+        flex-direction: column;
+        color: #c2b9b0;
+        font-weight: 700;
+        align-self: center;
+        margin: 1rem 0;
+        
+
+    }
+
+    .home-link{
+
+    }
+    .stories-link{
+        
+    }
+
+    .sign-in-link{
+
+    }
+
+  .selected {
+      text-decoration: none;
+      color: #c2b9b0;
+      color: #7e685a;
+
+
+  }
+  .selected:hover{
+    text-decoration: none;
+    
+
+    color: #7e685a;
+
+  }
+}
