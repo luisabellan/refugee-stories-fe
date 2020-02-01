@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "../Carousel/MyCarousel.js";
-import {Link,NavLink } from 'react-router-dom'
+import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 import "./Home.css";
 
@@ -17,8 +17,6 @@ const Home = () => {
     text-align: justify;
     padding: 2rem;
     max-width: 46rem;
-
-    
   `;
 
   const StyledButton = styled.button`
@@ -32,7 +30,7 @@ const Home = () => {
     margin-top: 2rem;
     font-size: 1.2rem;
     font-weight: 900;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
 
     font-family: "Roboto";
   `;
@@ -51,8 +49,8 @@ const Home = () => {
           illo, dolor sed dolorum placeat, delectus adipisci consequuntur minus!
           Molestiae, nostrum!
         </Paragraph>
-        <Link to='/stories' >
-          <StyledButton >Read More</StyledButton>
+        <Link to="/stories">
+          <StyledButton>Read More</StyledButton>
         </Link>
       </WrapperDiv>
     </div>
