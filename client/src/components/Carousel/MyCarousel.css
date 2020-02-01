@@ -6,13 +6,12 @@ html body h3 {
 }
 
 html body .carousel {
-  height: 50vh;
-  width: 26.5rem;
+  height: 45vh;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
   html body .carousel {
-    width: auto;
+    width: 42rem;
   }
 }
 
@@ -20,6 +19,7 @@ html body .carousel-indicators {
   background-color: orange;
   color: black;
   margin: 0 auto;
+  height: 2vh;
 }
 
 html body .carousel-control-prev {
@@ -36,11 +36,24 @@ html body .carousel-item {
 }
 
 html body .carousel-caption {
-  height: 32vh;
+  height: 36vh;
+}
+
+@media (min-width: 700px) {
+  html body .carousel-caption {
+    height: 40vh;
+  }
 }
 
 html body .carousel-item > img {
   height: 25rem;
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  html body .carousel-item > img {
+    width: 42rem;
+  }
 }
 
 html body .carousel-control-prev,

@@ -6,8 +6,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -25,6 +26,14 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 968px) {
+  .navigation {
+    width: 50rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -44,6 +53,18 @@
 @media (min-width: 600px) {
   .navigation h1 {
     margin-right: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .navigation h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 968px) {
+  .navigation h1 {
+    font-size: 2rem;
   }
 }
 

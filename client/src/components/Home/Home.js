@@ -1,9 +1,8 @@
 import React from "react";
 import Carousel from "../Carousel/MyCarousel.js";
-import Button from "@material-ui/core/Button";
 import {Link,NavLink } from 'react-router-dom'
 import styled from "styled-components";
-import "./home.css";
+import "./Home.css";
 
 const Home = () => {
   const WrapperDiv = styled.div`
@@ -13,10 +12,13 @@ const Home = () => {
     align-items: center;
     background: #fef9c7;
     color: #7e685a;
-    height: 90vh;
+    height: 100vh;
     font-family: Ubuntu;
     text-align: justify;
     padding: 2rem;
+    max-width: 46rem;
+
+    
   `;
 
   const StyledButton = styled.button`
@@ -30,6 +32,7 @@ const Home = () => {
     margin-top: 2rem;
     font-size: 1.2rem;
     font-weight: 900;
+    margin-bottom:3rem;
 
     font-family: "Roboto";
   `;

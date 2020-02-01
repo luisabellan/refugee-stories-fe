@@ -9,11 +9,13 @@ html {
       }
     }
     .carousel{
-      height: 50vh;
-      width: 26.5rem;
-      @media (min-width: 600px){
-        width: auto;
+      height: 45vh;
+      
+      @media (min-width: 750px) {
+        
+        width: 42rem;
 
+        
       }
     }
 
@@ -21,6 +23,7 @@ html {
       background-color: orange;
       color: black;
       margin: 0 auto;
+      height: 2vh;
     }
     .carousel-control-prev{
       height: 50vh;
@@ -35,15 +38,23 @@ html {
       
     }
     .carousel-caption{
-      height: 32vh;
+      height: 36vh;
+      @media (min-width: 700px) {
+        
+        height: 40vh;
+
+
+        
+      }
     }
     .carousel-item > img {
       height: 25rem;
-      @media (min-width: 680px) {
-        img {
+      width: 100%;
+      @media (min-width: 750px) {
         
+        width: 42rem;
 
-        }
+        
       }
 
     }

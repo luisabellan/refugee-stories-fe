@@ -9,12 +9,12 @@ import { Route } from 'react-router-dom'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import 'typeface-roboto';
 import Navigation from "./components/Navigation/Navigation"
-
+import "./App.css"
 import 'typeface-roboto';
 
 function App() {
   return (
-    <div>
+    <div className="app-wrapper">
      <CssBaseline />
       {/*<SignIn />*/}
       <Navigation />
