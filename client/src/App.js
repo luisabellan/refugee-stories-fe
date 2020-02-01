@@ -6,7 +6,8 @@ import Home from "./components/home/Home"
 import Stories from "./components/stories/Stories"
 import { Link } from 'react-router-dom'
 import { Route } from 'react-router-dom'
-//import CssBaseline from '@material-ui/core/CssBaseline';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import 'typeface-roboto';
 
 import 'typeface-roboto';
 

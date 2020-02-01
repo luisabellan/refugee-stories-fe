@@ -14,13 +14,11 @@ html body .carousel-indicators {
 }
 
 html body .carousel-item {
-  min-height: 50vh;
-  height: 50vh;
+  height: 30vh;
 }
 
 html body .carousel-item > img {
   width: 100%;
-  min-height: 50vh;
 }
 
 html body .carousel-control-prev,

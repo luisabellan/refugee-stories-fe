@@ -18,12 +18,10 @@ html {
     .carousel-item {
      
 
-      min-height: 50vh;
-      height: 50vh;
+      height: 30vh;
     }
     .carousel-item > img {
       width: 100%;
-      min-height: 50vh;
       @media (min-width: 680px) {
         img {
           

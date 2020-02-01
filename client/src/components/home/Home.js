@@ -10,6 +10,13 @@ const Home = () => {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #FEF9C7;
+  color: #7e685A;
+  height:90vh;
+  font-family: Ubuntu;
+  text-align: justify;
+  padding: 2rem;
+  
 `;
 
 const StyledButton = styled.button`
@@ -27,13 +34,25 @@ font-weight: 900;
 
 font-family: 'Roboto';
 `;
+
+const Paragraph = styled.p`
+
+    margin-top: 3rem;
+
+`
+
+
   return (
     <div className="homepage">
       <WrapperDiv className="wrapper">
         <Carousel />
+        <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta sequi reprehenderit tempore dolores at incidunt tempora ipsum eveniet illo, dolor sed dolorum placeat, delectus adipisci consequuntur minus! Molestiae, nostrum!</Paragraph>
         <StyledButton variant="outlined">
           Read More
         </StyledButton>
+        <h1></h1>
+
+
       </WrapperDiv>
     </div>
   );
