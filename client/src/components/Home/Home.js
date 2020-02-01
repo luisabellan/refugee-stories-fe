@@ -61,7 +61,8 @@ const Home = () => {
         <Paragraph>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta
           sequi reprehenderit tempore dolores at incidunt tempora ipsum eveniet
-          illo, dolor sed dolorum placeat, delectus adipisci consequuntur minus!
+          illo, dolor sed dolorum reprehenderit tempore dolores at incidunt tempora ipsum eveniet
+          illo, dolor sed placeat, delectus adipisci consequuntur minus!
           Molestiae, nostrum!
         </Paragraph>
         <Form action="./stories">
