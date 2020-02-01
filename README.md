@@ -30,6 +30,7 @@ npm start
 Contact the authors:
 * https://github.com/squarerobin
 * https://github.com/anam2091
+* https://github.com/nezlobnaya
 
 
 
