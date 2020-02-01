@@ -6,7 +6,7 @@ html body h3 {
 }
 
 html body .carousel {
-  height: 45vh;
+  height: 46vh;
 }
 
 @media (min-width: 750px) {
@@ -19,7 +19,7 @@ html body .carousel-indicators {
   background-color: orange;
   color: black;
   margin: 0 auto;
-  height: 2vh;
+  height: 3vh;
 }
 
 html body .carousel-control-prev {
