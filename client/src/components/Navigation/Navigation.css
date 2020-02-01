@@ -68,7 +68,7 @@
   }
 }
 
-.navigation .selected {
+.navigation a.selected {
   text-decoration: none;
   color: #7e685a;
 }
@@ -77,4 +77,4 @@
   text-decoration: none;
   color: #7e685a;
 }
-/*# sourceMappingURL=navigation.css.map */
+/*# sourceMappingURL=Navigation.css.map */
