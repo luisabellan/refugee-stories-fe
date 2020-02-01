@@ -7,29 +7,22 @@ import {
   CarouselCaption
 } from "reactstrap";
 import "./MyCarousel.css";
-import styled from "styled-components";
 
 const items = [
   {
     src: "./images/1.jpg",
-    altText: "",
-    caption:
-      "Be the change that you wish to see in the world. ― Mahatma Gandhi",
-    button: ""
+    altText: "hello",
+    caption:"Be the change that you wish to see in the world. ― Mahatma Gandhi"
   },
   {
     src: "./images/2.jpg",
     altText: "",
-    caption:
-      "In three words I can sum up everything I've learned about life: it goes on. ― Robert Frost",
-    button: ""
+    caption: "In three words I can sum up everything I've learned about life: it goes on. ― Robert Frost"
   },
   {
     src: "./images/3.jpg",
     altText: "",
-    caption:
-      "If you tell the truth, you don't have to remember anything. ― Mark Twain",
-    button: ""
+    caption:"If you tell the truth, you don't have to remember anything. ― Mark Twain"
   }
 ];
 
@@ -67,7 +60,7 @@ const MyCarousel = () => {
       >
         <img src={item.src} alt={item.altText} />
         <CarouselCaption
-          captionText={item.caption}
+          // captionText={item.caption}
           captionHeader={item.caption}
         />
       </CarouselItem>

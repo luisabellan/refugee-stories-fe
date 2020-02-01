@@ -1,26 +1,59 @@
-@media (min-width: 300px) {
-  html body h3.carousel-caption {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+html body h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20vh;
+}
+
+html body .carousel {
+  height: 45vh;
+}
+
+@media (min-width: 750px) {
+  html body .carousel {
+    width: 42rem;
   }
 }
 
 html body .carousel-indicators {
   background-color: orange;
   color: black;
-  max-width: auto;
   margin: 0 auto;
+  height: 2vh;
+}
+
+html body .carousel-control-prev {
+  height: 50vh;
+}
+
+html body .carousel-control-next {
+  height: 50vh;
 }
 
 html body .carousel-item {
-  max-height: 60vh;
+  max-height: 70vh;
+  height: 70vh;
+}
+
+html body .carousel-caption {
+  height: 36vh;
+}
+
+@media (min-width: 700px) {
+  html body .carousel-caption {
+    height: 40vh;
+  }
 }
 
 html body .carousel-item > img {
+  height: 25rem;
   width: 100%;
-  max-height: 50vh;
-  min-height: 50vh;
+}
+
+@media (min-width: 750px) {
+  html body .carousel-item > img {
+    width: 42rem;
+  }
 }
 
 html body .carousel-control-prev,

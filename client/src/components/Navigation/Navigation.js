@@ -1,7 +1,7 @@
 
 import React from 'react'
-import {Link,NavLink } from 'react-router-dom'
-import "./navigation.css"
+import {NavLink } from 'react-router-dom'
+import "./Navigation.css"
 
 const Navigation = (props) => {
 

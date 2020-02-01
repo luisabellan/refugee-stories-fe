@@ -1,4 +1,4 @@
-.homepage {
+.app-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,7 +12,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
   background-color: #fef9c7;
+  height: 100%;
 }
-/*# sourceMappingURL=Home.css.map */
+/*# sourceMappingURL=App.css.map */
