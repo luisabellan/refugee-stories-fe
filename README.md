@@ -35,4 +35,5 @@ Contact the authors:
 
 # License
 [MIT] (https://opensource.org/licenses/MIT)
-MIT © [nezlobnaya](Vlad Burlutskiy);
+MIT © [squarerobin](Luis Abellan);
+MIT © [anam2091](Anam);
