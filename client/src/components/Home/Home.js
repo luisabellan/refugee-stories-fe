@@ -23,8 +23,6 @@ const Home = () => {
     display: flex;
     justify-content: center;
     self-align: center;
-    background-color: orange;
-    color: #7e685a;
     width: 10rem;
     padding: 1rem;
     margin-top: 2rem;
@@ -33,6 +31,8 @@ const Home = () => {
     margin-bottom: 3rem;
     z-index: 10;
     font-family: "Roboto";
+   
+
   `;
 
   const Form = styled.form`
@@ -41,14 +41,16 @@ const Home = () => {
   `;
 
   const Paragraph = styled.p`
-    margin-top: 3rem;
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+    
 
     @media (min-width: 600px) {
       font-size: 1.2rem;
     }
 
     @media (min-width: 968px) {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
   `;
 
@@ -63,7 +65,7 @@ const Home = () => {
           Molestiae, nostrum!
         </Paragraph>
         <Form action="./stories">
-          <StyledButton type="submit" value="Read More">Read More</StyledButton> 
+          <StyledButton className="button" type="submit" value="Read More">READ MORE</StyledButton> 
         </Form>
       </WrapperDiv>
     </div>

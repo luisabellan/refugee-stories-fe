@@ -13,6 +13,11 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+}
+
+.button {
   background-color: #fef9c7;
+  color: #dfaf05;
+  border: 2.5px solid #dfaf05;
 }
 /*# sourceMappingURL=Home.css.map */
