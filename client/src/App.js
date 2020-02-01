@@ -15,13 +15,13 @@ import 'typeface-roboto';
 function App() {
   return (
     <div>
-     {/* <CssBaseline />*/}
+     <CssBaseline />
       {/*<SignIn />*/}
       <Navigation />
 
-      <Route  path='/Signin' component={SignIn}/>
       <Route exact path='/' component={Home}/>
       <Route path='/Stories' component={Stories}/>
+      <Route  path='/Signin' component={SignIn}/>
       {/* 
       
       <PrivateRoute path="/" component={Home Comp}
