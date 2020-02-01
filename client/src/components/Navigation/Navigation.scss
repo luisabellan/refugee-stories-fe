@@ -2,14 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  align-self: center;
   background-color: #fef9c7;
   color: #7e685a;
+  padding: 1rem;
+ 
+  width: 100%;
+
 
   font-family: Ubuntu;
   z-index: 10;
   padding-top: 1rem;
-  padding-bottom: -5rem;
   margin-bottom: -4.5rem;
   @media (min-width: 600px) {
     flex-direction: row;
@@ -30,11 +34,13 @@
 
 
 
+
+
     @media (min-width: 600px) {
       font-size: 1.8rem;
-      margin-right: 2rem;
+      margin-left: 1rem;
     }
-
+    
     @media (min-width: 968px) {
       font-size: 2rem;
     }
