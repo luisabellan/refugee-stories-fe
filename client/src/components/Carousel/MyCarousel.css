@@ -6,7 +6,7 @@ html body h3 {
 }
 
 html body .carousel {
-  height: 46vh;
+  height: 20rem;
 }
 
 @media (min-width: 750px) {
@@ -23,11 +23,11 @@ html body .carousel-indicators {
 }
 
 html body .carousel-control-prev {
-  height: 50vh;
+  height: 35vh;
 }
 
 html body .carousel-control-next {
-  height: 50vh;
+  height: 35vh;
 }
 
 html body .carousel-item {
@@ -46,7 +46,7 @@ html body .carousel-caption {
 }
 
 html body .carousel-item > img {
-  height: 25rem;
+  height: 20rem;
   width: 100%;
 }
 

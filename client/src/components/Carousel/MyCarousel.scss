@@ -9,7 +9,9 @@ html {
       }
     }
     .carousel{
-      height: 46vh;
+      height: 20rem;
+
+
       
       @media (min-width: 750px) {
         
@@ -26,10 +28,10 @@ html {
       height: 3vh;
     }
     .carousel-control-prev{
-      height: 50vh;
+      height: 35vh;
     }
     .carousel-control-next{
-      height: 50vh;
+      height: 35vh;
     }
     .carousel-item {
      
@@ -39,6 +41,7 @@ html {
     }
     .carousel-caption{
       height: 36vh;
+      
       @media (min-width: 700px) {
         
         height: 40vh;
@@ -48,7 +51,8 @@ html {
       }
     }
     .carousel-item > img {
-      height: 25rem;
+      height: 20rem;
+
       width: 100%;
       @media (min-width: 750px) {
         
