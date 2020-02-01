@@ -49,7 +49,7 @@ const Home = () => {
           Molestiae, nostrum!
         </Paragraph>
         <Link to='/stories' >
-          <StyledButton variant="outlined">Read More</StyledButton>
+          <StyledButton >Read More</StyledButton>
         </Link>
       </WrapperDiv>
     </div>
