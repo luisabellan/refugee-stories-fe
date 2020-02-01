@@ -31,8 +31,13 @@ const Home = () => {
     font-size: 1.2rem;
     font-weight: 900;
     margin-bottom: 3rem;
-
+    z-index: 10;
     font-family: "Roboto";
+  `;
+
+  const Form = styled.form`
+    z-index: 10;
+  
   `;
 
   const Paragraph = styled.p`
@@ -49,9 +54,9 @@ const Home = () => {
           illo, dolor sed dolorum placeat, delectus adipisci consequuntur minus!
           Molestiae, nostrum!
         </Paragraph>
-        <Link to="/stories">
-          <StyledButton>Read More</StyledButton>
-        </Link>
+        <Form action="./stories">
+          <StyledButton type="submit" value="Read More">Read More</StyledButton> 
+        </Form>
       </WrapperDiv>
     </div>
   );
