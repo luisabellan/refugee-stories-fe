@@ -9,7 +9,7 @@ html {
       }
     }
     .carousel{
-      height: 20rem;
+      height: 30rem;
 
 
       
@@ -22,9 +22,8 @@ html {
     }
 
     .carousel-indicators {
-      background-color: orange;
-      color: black;
-      margin: 0 auto;
+      background-color: darken($color: #fce181, $amount: 30%);
+      margin: 0 auto 8.5rem auto;
       height: 3vh;
     }
     .carousel-control-prev{
@@ -35,16 +34,15 @@ html {
     }
     .carousel-item {
      
-      max-height: 70vh;
-      height: 70vh;
-      
+      height: 50vh;
+      margin-top: 0rem;
     }
     .carousel-caption{
-      height: 40vh;
+      height: 50vh;
       
       @media (min-width: 700px) {
         
-        height: 50vh;
+        height: 27vh;
 
 
         
@@ -52,7 +50,7 @@ html {
     }
     .carousel-item > img {
       height: 20rem;
-
+      margin-top: 0rem;
       width: 100%;
       @media (min-width: 750px) {
         
