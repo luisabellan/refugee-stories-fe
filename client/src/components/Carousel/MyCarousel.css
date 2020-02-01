@@ -36,12 +36,12 @@ html body .carousel-item {
 }
 
 html body .carousel-caption {
-  height: 36vh;
+  height: 40vh;
 }
 
 @media (min-width: 700px) {
   html body .carousel-caption {
-    height: 40vh;
+    height: 50vh;
   }
 }
 
