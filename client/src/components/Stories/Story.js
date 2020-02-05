@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 import "./Story.css";
-import "../../App.css";
+
 
 function Story(props) {
   const [data, setData] = useState([]);
