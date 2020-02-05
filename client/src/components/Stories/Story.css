@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=Story.css.map */
+.story {
+  margin: 5rem;
+  color: #7e685a;
+  font-family: Ubuntu;
+  text-align: justify;
+}
+/*# sourceMappingURL=Story.css.map */
