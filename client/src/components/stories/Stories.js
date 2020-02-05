@@ -2,7 +2,7 @@ import React from "react";
 import {footerdes,footerdes2,footerdes3,Footer} from "../home/Home"; 
 
 
-export const Stories = () => {
+const Stories = () => {
     return(
         <div style={footerdes}>
         <button>Stories</button> 
@@ -12,3 +12,4 @@ export const Stories = () => {
     )
 };
 
+export default Stories;

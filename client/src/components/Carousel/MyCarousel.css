@@ -1,0 +1,70 @@
+html body h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20vh;
+}
+
+html body .carousel {
+  height: 30rem;
+}
+
+@media (min-width: 750px) {
+  html body .carousel {
+    width: 42rem;
+  }
+}
+
+html body .carousel-indicators {
+  background-color: #dfaf05;
+  margin: 0 auto 8.5rem auto;
+  height: 3vh;
+}
+
+html body .carousel-control-prev {
+  height: 35vh;
+}
+
+html body .carousel-control-next {
+  height: 35vh;
+}
+
+html body .carousel-item {
+  height: 50vh;
+  margin-top: 0rem;
+}
+
+html body .carousel-caption {
+  height: 50vh;
+}
+
+@media (min-width: 700px) {
+  html body .carousel-caption {
+    height: 27vh;
+  }
+}
+
+html body .carousel-item > img {
+  height: 20rem;
+  margin-top: 0rem;
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  html body .carousel-item > img {
+    width: 42rem;
+  }
+}
+
+html body .carousel-control-prev,
+html body .carousel-control-next {
+  cursor: pointer;
+}
+
+html body .carousel-item,
+html body .carousel-item.active {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=MyCarousel.css.map */
