@@ -1,5 +1,5 @@
 import React from "react";
-import {footerdes,footerdes2,Footer} from "../home/Home"; 
+import {footerdes,footerdes2,Footer} from "../Home/Home"; 
 
 
 const Stories = () => {
@@ -12,6 +12,4 @@ const Stories = () => {
     )
 };
 
-
 export default Stories;
-
