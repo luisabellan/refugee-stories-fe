@@ -1,5 +1,5 @@
 import React from "react";
-import {footerdes,footerdes2,footerdes3,Footer} from "../home/Home"; 
+import {footerdes,footerdes2,Footer} from "../home/Home"; 
 
 
 const Stories = () => {
