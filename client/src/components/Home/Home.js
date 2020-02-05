@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 import "./Home.css";
 
+
 const Home = () => {
   const WrapperDiv = styled.div`
     display: flex;
@@ -78,7 +79,7 @@ export default Home;
 export const footerdes = {
     display: 'flex',
   minHeight: '100vh',
-  flexDirection: 'column',
+ 
   
   
 }
@@ -86,13 +87,14 @@ export const footerdes2 ={
     flex:'1',
    
 }
+
 export const footerdes3={
     backgroundColor:'gray',
 }
 
 export const Footer = () => {
     return(
-    <div>
+    <div >
 
         <button style={footerdes3}>Copyright @ 2020</button>
         <button style={footerdes3}>About</button> 
