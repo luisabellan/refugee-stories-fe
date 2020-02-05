@@ -60,7 +60,7 @@ const MyCarousel = () => {
       >
         <img src={item.src} alt={item.altText} />
         <CarouselCaption
-          // captionText={item.caption}
+          captionText={""}
           captionHeader={item.caption}
         />
       </CarouselItem>
