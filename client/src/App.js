@@ -2,7 +2,11 @@ import React from "react";
 import SignIn from "./components/signin/SignIn";
 import PrivateRoute from "./utils/PrivateRoute";
 
+<<<<<<< HEAD
 import Home from "./components/home/Home";
+=======
+import Home from "./components/Home/Home";
+>>>>>>> dev
 import Stories from "./components/stories/Stories";
 
 import { Route } from "react-router-dom";
