@@ -6,7 +6,7 @@ html body h3 {
 }
 
 html body .carousel {
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
 html body .carousel-indicators {
@@ -29,8 +29,7 @@ html body .carousel-item {
 }
 
 html body .carousel-item > img {
-  width: 100%;
-  height: 30%;
+  height: 50vh;
   position: static;
 }
 
