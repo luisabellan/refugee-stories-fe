@@ -3,6 +3,8 @@ import Carousel from "../Carousel/MyCarousel.js";
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 import "./Home.css";
+import { borderRadius } from "@material-ui/system";
+import Button from 'react-bootstrap/Button'; 
 
 const Home = () => {
   const WrapperDiv = styled.div`
@@ -39,7 +41,7 @@ const Home = () => {
 
   const Paragraph = styled.p`
    
-    margin-top:2rem;
+    padding-top:5rem;
     @media (min-width: 600px) {
       font-size: 1.2rem;
     }
@@ -83,15 +85,18 @@ export const footerdes2 = {
 };
 
 export const footerdes3 = {
-  backgroundColor: "gray"
+  marginTop:"37px"
+
 };
 
 export const Footer = () => {
   return (
-    <div>
-      <button style={footerdes3}>Copyright @ 2020</button>
-      <button style={footerdes3}>About</button>
-      <button style={footerdes3}>Help</button>
+    <div style={footerdes3}>
+        <Button variant="outline-secondary">Copyright @ 2020</Button>
+        <Button variant="outline-secondary">Help</Button>
+        <Button variant="outline-secondary">About</Button>
+        <Button variant="outline-secondary">Refugee Connections</Button>
+      
     </div>
   );
 };
