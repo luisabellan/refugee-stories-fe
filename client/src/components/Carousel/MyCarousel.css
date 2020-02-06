@@ -30,6 +30,9 @@ html body .carousel-item {
 
 html body .carousel-item > img {
   height: 50vh;
+  width: 20rem;
+  max-width: 20rem;
+  min-width: 20rem;
   position: static;
 }
 
