@@ -39,7 +39,7 @@ const Home = () => {
 
   const Paragraph = styled.p`
    
-    margin-top:2rem;
+    padding-top:5rem;
     @media (min-width: 600px) {
       font-size: 1.2rem;
     }
