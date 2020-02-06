@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 import "./Home.css";
 import { borderRadius } from "@material-ui/system";
+import Button from 'react-bootstrap/Button'; 
 
 const Home = () => {
   const WrapperDiv = styled.div`
@@ -93,10 +94,11 @@ export const footerdes3 = {
 export const Footer = () => {
   return (
     <div>
-      <button style={footerdes3}>Copyright @ 2020</button>
-      <button style={footerdes3}>About</button>
-      <button style={footerdes3}>Help</button>
-      <button style={footerdes3}>Refugee Connections</button>
-    </div>
+        <Button variant="outline-secondary">Copyright @ 2020</Button>
+        <Button variant="outline-secondary">Help</Button>
+        <Button variant="outline-secondary">About</Button>
+        <Button variant="outline-secondary">Refugee Connections</Button>
+      
+      </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import SignIn from "./components/signin/SignIn";
 import PrivateRoute from "./utils/PrivateRoute";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
