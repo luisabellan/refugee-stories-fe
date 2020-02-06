@@ -48,14 +48,18 @@ html {
     .carousel-item > img {
      
      height: 50vh;
-     width: 20rem;
-     max-width: 20rem;
-     min-width: 20rem;
+     width: 100%;
+    
       
     position: static;
-      @media (min-width: 750px) {
+      @media (min-width: 300px) {
         
-
+        
+        
+      }
+      @media (min-width: 500px) {
+        
+       
         
       }
 
