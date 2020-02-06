@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-import Home from "./components/home/Home";
+import Home from "./components/Home/Home";
 
 import Stories from "./components/Stories/Stories";
 
