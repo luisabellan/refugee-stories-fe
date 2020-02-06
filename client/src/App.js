@@ -4,7 +4,7 @@ import PrivateRoute from "./utils/PrivateRoute";
 
 
 
-import Home from "./components/Home/Home";
+import Home from "./components/home/Home";
 
 import Stories from "./components/Stories/Stories";
 

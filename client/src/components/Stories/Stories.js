@@ -3,7 +3,7 @@ import axios from "axios";
 import Story from "./Story";
 
 
-import { footerdes, footerdes2, footerdes3, Footer } from "../Home/Home";
+import { footerdes, footerdes2, footerdes3, Footer } from "../home/Home";
 
 const Stories = () => {
   const [data, setData] = useState([]);

@@ -3,6 +3,7 @@ import Carousel from "../Carousel/MyCarousel.js";
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 import "./Home.css";
+import { borderRadius } from "@material-ui/system";
 
 const Home = () => {
   const WrapperDiv = styled.div`
@@ -83,7 +84,10 @@ export const footerdes2 = {
 };
 
 export const footerdes3 = {
-  backgroundColor: "gray"
+  backgroundColor: "white",
+  borderRadius:"30%",
+  marginRight:"5px"
+
 };
 
 export const Footer = () => {
@@ -92,6 +96,7 @@ export const Footer = () => {
       <button style={footerdes3}>Copyright @ 2020</button>
       <button style={footerdes3}>About</button>
       <button style={footerdes3}>Help</button>
+      <button style={footerdes3}>Refugee Connections</button>
     </div>
   );
 };
