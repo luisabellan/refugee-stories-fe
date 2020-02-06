@@ -1,22 +1,25 @@
 html {
   body {
-    height: 100vh;
     h3 {
       display:flex;
-      height: 20vh;
+     
+      color: #d3af3a;
+
       @media(min-width: 300px){
 
 
       }
     }
     .carousel{
-      height: 30rem;
+      margin-top: 10rem;
+
+      
 
 
       
       @media (min-width: 750px) {
         
-        width: 100%;
+      
 
         
       }
@@ -24,40 +27,31 @@ html {
 
     .carousel-indicators {
       background-color: darken($color: #fce181, $amount: 30%);
-      margin: 0 auto 8.5rem auto;
-      height: 3vh;
-      position: absolute;
-      top: 22em;
+     /*  margin: 0 auto 8.5rem auto;
+      height: 3vh; */
+      margin: 0;
     }
     .carousel-control-prev{
-      height: 35vh;
+      height: auto;
     }
     .carousel-control-next{
-      height: 35vh;
+      height: auto;
     }
     .carousel-item {
      
-      height: 50vh;
-      margin-top: 0rem;
+      height: auto;
+
     }
     .carousel-caption{
-      height: 50vh;
       
-      @media (min-width: 700px) {
-        
-        height: 27vh;
-
-
-        
-      }
     }
     .carousel-item > img {
-      height: 20rem;
-      margin-top: 0rem;
-      width: 100%;
+     
+     height: 50vh;
+      
+    position: static;
       @media (min-width: 750px) {
         
-        width: 100%;
 
         
       }
