@@ -1,3 +1,7 @@
+html body {
+  height: 100vh;
+}
+
 html body h3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,6 +23,8 @@ html body .carousel-indicators {
   background-color: #dfaf05;
   margin: 0 auto 8.5rem auto;
   height: 3vh;
+  position: absolute;
+  top: 22em;
 }
 
 html body .carousel-control-prev {

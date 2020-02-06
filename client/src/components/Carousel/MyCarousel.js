@@ -70,6 +70,7 @@ const MyCarousel = () => {
   return (
     <Carousel activeIndex={activeIndex} next={next} previous={previous}>
       <CarouselIndicators
+      className="carousel-indicators"
         
         items={items}
         activeIndex={activeIndex}
