@@ -85,20 +85,18 @@ export const footerdes2 = {
 };
 
 export const footerdes3 = {
-  backgroundColor: "white",
-  borderRadius:"30%",
-  marginRight:"5px"
+  marginTop:"37px"
 
 };
 
 export const Footer = () => {
   return (
-    <div>
+    <div style={footerdes3}>
         <Button variant="outline-secondary">Copyright @ 2020</Button>
         <Button variant="outline-secondary">Help</Button>
         <Button variant="outline-secondary">About</Button>
         <Button variant="outline-secondary">Refugee Connections</Button>
       
-      </div>
+    </div>
   );
 };
