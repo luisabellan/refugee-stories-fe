@@ -2,3 +2,6 @@
 
 client/public/index.css.map
 *.map
+
+# Local Netlify folder
+.netlify
