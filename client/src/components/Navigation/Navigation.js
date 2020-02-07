@@ -6,10 +6,10 @@ const Navigation = props => {
   return (
     <div className="navigation">
       <div className="header">
-        <h1>Refugee Stories</h1>
+        <h1>REFUGEE STORIES</h1>
       </div>
       <div className="navlinks">
-        <ul>
+        
           <NavLink
             exact
             className="home-link"
@@ -32,7 +32,7 @@ const Navigation = props => {
           >
             SIGN IN
           </NavLink>
-        </ul>
+        
       </div>
     </div>
   );

@@ -6,11 +6,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
   background-color: #fef9c7;
   color: #7e685a;
   margin-top: 0;
-  width: 100%;
   height: 25vh;
+  padding-bottom: 1rem;
   font-family: Ubuntu;
   z-index: +10;
   position: fixed;
@@ -18,24 +19,7 @@
   padding-top: 1rem;
 }
 
-@media (min-width: 600px) {
-  .navigation {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 968px) {
-  .navigation {
-    width: 100%;
-    font-size: 1.2rem;
-  }
-}
-
-.navigation div.header {
+.navigation .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,85 +34,87 @@
       align-self: center;
 }
 
-.navigation div.header h1 {
+.navigation .header h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
-  font-size: 1.7rem;
-  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
 }
 
-@media (min-width: 600px) {
-  .navigation div.header h1 {
-    font-size: 1.8rem;
-    margin-left: 1rem;
+@media (min-width: 300px) {
+  .navigation .header h1 {
+    font-size: 1.1rem;
   }
 }
 
-@media (min-width: 968px) {
-  .navigation div.header h1 {
+@media (min-width: 500px) {
+  .navigation .header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .navigation .header h1 {
     font-size: 2rem;
   }
 }
 
 .navigation div.navlinks {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: row;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.navigation div.navlinks ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
   a-text-decoration: none;
   a-color: #7e685a;
 }
 
-.navigation div.navlinks ul a {
+.navigation div.navlinks a {
   color: #c2b9b0;
   font-weight: 700;
   padding: 1rem;
-  margin: 1rem 0;
+  font-size: 0.5rem;
 }
 
-@media (min-width: 600px) {
-  .navigation div.navlinks ul a {
-    margin: 1rem;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+@media (min-width: 300px) {
+  .navigation div.navlinks a {
+    font-size: 1rem;
   }
 }
 
-.navigation div.navlinks ul a.selected {
+@media (min-width: 500px) {
+  .navigation div.navlinks a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .navigation div.navlinks a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 968px) {
+  .navigation div.navlinks a {
+    font-size: 1.2rem;
+  }
+}
+
+.navigation div.navlinks a.selected {
   text-decoration: none;
   color: #7e685a;
 }
 
-.navigation div.navlinks ul a:hover {
+.navigation div.navlinks a:hover {
   text-decoration: none;
   color: #7e685a;
 }

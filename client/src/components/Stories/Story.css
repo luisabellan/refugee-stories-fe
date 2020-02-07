@@ -17,30 +17,34 @@
   color: #7e685a;
   font-family: Ubuntu;
   text-align: justify;
+  z-index: 1;
 }
 
-p {
+.story h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.story p {
   font-size: 1.1rem;
-  margin: 0 4rem;
-}
-
-@media (min-width: 300px) {
-  p {
-    font-size: 1.2rem;
-    margin: 0 6rem;
-  }
 }
 
 @media (min-width: 500px) {
-  p {
-    font-size: 1.3rem;
-    margin: 0 1rem;
+  .story p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .story p {
+    font-size: 1.8rem;
+    margin: 0 1.4rem;
   }
 }
 
 @media (min-width: 1024px) {
-  p {
-    font-size: 1.3rem;
+  .story p {
+    font-size: 2rem;
     width: 50rem;
   }
 }

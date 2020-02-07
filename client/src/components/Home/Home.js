@@ -31,7 +31,6 @@ const Home = () => {
     font-size: 1.2rem;
     font-weight: 900;
     margin-bottom: 3rem;
-    z-index: 10;
     font-family: "Roboto";
   `;
 
