@@ -6,7 +6,7 @@
   background-color: #fef9c7;
   color: #7e685a;
   margin-top: 0;
-  height: 25vh;
+  height: 15vh;
   padding-bottom: 1rem;
 
   font-family: Ubuntu;
@@ -28,14 +28,14 @@
       font-size: 1rem;
 
       @media (min-width: 300px) {
-        font-size: 1.1rem;
+        font-size: 2rem;
       }
       @media (min-width: 500px) {
         font-size: 3rem;
       }
 
       @media (min-width: 800px) {
-        font-size: 2rem;
+        font-size: 3rem;
       }
     }
   }

@@ -10,7 +10,7 @@
   background-color: #fef9c7;
   color: #7e685a;
   margin-top: 0;
-  height: 25vh;
+  height: 15vh;
   padding-bottom: 1rem;
   font-family: Ubuntu;
   z-index: +10;
@@ -46,7 +46,7 @@
 
 @media (min-width: 300px) {
   .navigation .header h1 {
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
 }
 
@@ -58,7 +58,7 @@
 
 @media (min-width: 800px) {
   .navigation .header h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 

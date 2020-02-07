@@ -13,7 +13,10 @@
       -ms-flex-align: center;
           align-items: center;
   padding-top: 5rem;
-  margin: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 1rem;
   color: #7e685a;
   font-family: Ubuntu;
   text-align: justify;
