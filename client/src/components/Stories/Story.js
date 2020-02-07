@@ -17,7 +17,7 @@ function Story(props) {
 
  return (
       <div className="story">
-        <h2 >{props.str.title}</h2>
+        <h1>{props.str.title}</h1>
         <p >{props.str.contents}</p>
       </div>
  )
