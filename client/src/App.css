@@ -38,11 +38,4 @@ body {
     margin: 0 1.3rem;
   }
 }
-
-@media (min-width: 1024px) {
-  .app-wrapper p {
-    font-size: 1.7rem;
-    width: 50rem;
-  }
-}
 /*# sourceMappingURL=App.css.map */
