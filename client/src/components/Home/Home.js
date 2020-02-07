@@ -17,7 +17,7 @@ const Home = () => {
     height: 100vh;
     font-family: Ubuntu;
     text-align: justify;
-    padding: 2rem;
+    padding: 1rem;
     max-width: 46rem;
   `;
 
@@ -25,13 +25,27 @@ const Home = () => {
     display: flex;
     justify-content: center;
     self-align: center;
-    width: 10rem;
-    padding: 1rem;
+    width: 7rem;
+    font-size: 1rem;
+    padding: 0.5rem;
     margin-top: 2rem;
-    font-size: 1.2rem;
     font-weight: 900;
     margin-bottom: 3rem;
     font-family: "Roboto";
+    @media (min-width: 300px) {
+      width: 10rem;
+      font-size: 1.1rem;
+      padding: 0.8rem;
+    }
+    @media (min-width: 500px) {
+      width: 10rem;
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+    @media (min-width: 800px) {
+    }
+    @media (min-width: 1024px) {
+    }
   `;
 
   const Form = styled.form`
@@ -41,13 +55,9 @@ const Home = () => {
   const Paragraph = styled.p`
    
     padding-top:5rem;
-    @media (min-width: 600px) {
-      font-size: 1.2rem;
-    }
+   
 
-    @media (min-width: 968px) {
-      font-size: 1.3rem;
-    }
+  
   `;
 
   return (

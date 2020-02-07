@@ -1,76 +1,81 @@
 html {
   body {
     h3 {
-      display:flex;
-     
+      display: flex;
+
       color: #d3af3a;
 
-      @media(min-width: 300px){
-
-
+      @media (min-width: 300px) {
       }
     }
-    .carousel{
+    .carousel {
       z-index: 1;
-      
+      margin-top: 6rem;
 
-
-       
       height: 10rem;
-      max-height: 10rem;
-     
+      min-height: 10rem;
+      max-height: 50rem;
 
-      width: 20rem;
-      max-width: 20rem;
-     
+      width: 15rem;
+      min-width: 15rem;
+      max-width: 50rem;
 
+   @media (min-width: 320px) {
+        height: 20rem * 0.6;
+        width: 30rem * 0.6;
+      }
+
+
+      @media (min-width: 500px) {
+        height: 20rem;
+        width: 30rem;
+      }
+      @media (min-width: 800px) {
+
+      }
+
+      @media (min-width: 1024px) {
+      }
     }
 
     .carousel-indicators {
       background-color: darken($color: #fce181, $amount: 30%);
-     /*  margin: 0 auto 8.5rem auto;
+      /*  margin: 0 auto 8.5rem auto;
       height: 3vh; */
       margin: 0;
+     
     }
-    .carousel-control-prev{
+    .carousel-control-prev {
     }
-    .carousel-control-next{
-
+    .carousel-control-next {
     }
     .carousel-item {
-     
-      height: auto;
-
+ 
     }
-    .carousel-caption{
-      
+    .carousel-caption {
     }
     .carousel-item > img {
-     
       height: 10rem;
-      max-height: 10rem;
-      min-height: 10rem;
 
-      width: 20rem;
-      max-width: 20rem;
-      min-width: 20rem;
+      width: 15rem;
 
-
-   
-    
-      
-    position: static;
-      @media (min-width: 300px) {
-        
-        
-        
+     
+   @media (min-width: 320px) {
+        height: 20rem * 0.6;
+        width: 30rem * 0.6;
       }
+ 
+
       @media (min-width: 500px) {
-        
-       
-        
+        height: 20rem;
+        width: 30rem;
+      }
+      @media (min-width: 800px) {
+      
       }
 
+      @media (min-width: 1024px) {
+      }
     }
     .carousel-control-prev,
     .carousel-control-next {

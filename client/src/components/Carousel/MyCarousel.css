@@ -7,10 +7,27 @@ html body h3 {
 
 html body .carousel {
   z-index: 1;
+  margin-top: 6rem;
   height: 10rem;
-  max-height: 10rem;
-  width: 20rem;
-  max-width: 20rem;
+  min-height: 10rem;
+  max-height: 50rem;
+  width: 15rem;
+  min-width: 15rem;
+  max-width: 50rem;
+}
+
+@media (min-width: 320px) {
+  html body .carousel {
+    height: 12rem;
+    width: 18rem;
+  }
+}
+
+@media (min-width: 500px) {
+  html body .carousel {
+    height: 20rem;
+    width: 30rem;
+  }
 }
 
 html body .carousel-indicators {
@@ -20,18 +37,23 @@ html body .carousel-indicators {
   margin: 0;
 }
 
-html body .carousel-item {
-  height: auto;
-}
-
 html body .carousel-item > img {
   height: 10rem;
-  max-height: 10rem;
-  min-height: 10rem;
-  width: 20rem;
-  max-width: 20rem;
-  min-width: 20rem;
-  position: static;
+  width: 15rem;
+}
+
+@media (min-width: 320px) {
+  html body .carousel-item > img {
+    height: 12rem;
+    width: 18rem;
+  }
+}
+
+@media (min-width: 500px) {
+  html body .carousel-item > img {
+    height: 20rem;
+    width: 30rem;
+  }
 }
 
 html body .carousel-control-prev,
