@@ -53,11 +53,15 @@ const Home = () => {
   `;
 
   const Paragraph = styled.p`
-   
-    padding-top:5rem;
-   
+    padding: 0;
+    margin: 0;
+    padding-top: 2rem;
+    @media (min-width: 320px) {
+      height: 10rem * 1.2;
+      width: 15rem * 1.2;
+    }
 
-  
+
   `;
 
   return (
