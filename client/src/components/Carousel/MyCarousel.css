@@ -8,7 +8,7 @@ html body h3 {
 html body .carousel {
   z-index: 1;
   margin-bottom: 0rem;
-  margin-top: 0rem;
+  margin-top: -5rem;
   height: 10rem;
   min-height: 10rem;
   max-height: 50rem;
@@ -22,7 +22,7 @@ html body .carousel {
     height: 12rem;
     width: 18rem;
     margin-bottom: 0rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 }
 
@@ -31,7 +31,7 @@ html body .carousel {
     height: 14rem;
     width: 21rem;
     margin-bottom: 0rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 }
 
@@ -40,7 +40,7 @@ html body .carousel {
     height: 19rem;
     width: 28.5rem;
     margin-bottom: 0rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 }
 
@@ -49,7 +49,7 @@ html body .carousel {
     height: 20rem;
     width: 30rem;
     margin-bottom: 0rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 }
 
@@ -58,7 +58,7 @@ html body .carousel {
     height: 27.5rem;
     width: 41.25rem;
     margin-bottom: 0rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 }
 
