@@ -14,4 +14,28 @@
           align-items: center;
   background-color: #fef9c7;
 }
+
+.app-wrapper p {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 500px) {
+  .app-wrapper p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .app-wrapper p {
+    font-size: 1.8rem;
+    margin: 0 1.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-wrapper p {
+    font-size: 2rem;
+    width: 50rem;
+  }
+}
 /*# sourceMappingURL=App.css.map */
