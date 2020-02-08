@@ -13,6 +13,8 @@ import Grid from "@material-ui/core/Grid";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
+import {footerdes,footerdes2,footerdes3,Footer} from "../Home/Home"; 
+
 
 
 
@@ -47,12 +49,12 @@ const useStyles = makeStyles(theme => ({
     alignItems: "center"
   },
   avatar: {
-    margin: theme.spacing(1),
+    margin: theme.spacing(8),
     backgroundColor: theme.palette.secondary.main
   },
   form: {
     width: "100%", // Fix IE 11 issue.
-    marginTop: theme.spacing(1)
+    marginTop: theme.spacing(3)
   },
   submit: {
     margin: theme.spacing(3, 0, 2)
@@ -158,7 +160,11 @@ export default function SignIn() {
             </Box>
           </form>
         </div>
+
       </Grid>
+    <Footer/>
+
     </Grid>
+
   );
 }

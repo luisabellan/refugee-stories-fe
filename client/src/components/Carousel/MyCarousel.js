@@ -60,7 +60,7 @@ const MyCarousel = () => {
       >
         <img src={item.src} alt={item.altText} />
         <CarouselCaption
-          // captionText={item.caption}
+          captionText={""}
           captionHeader={item.caption}
         />
       </CarouselItem>
@@ -70,6 +70,7 @@ const MyCarousel = () => {
   return (
     <Carousel activeIndex={activeIndex} next={next} previous={previous}>
       <CarouselIndicators
+      className="carousel-indicators"
         
         items={items}
         activeIndex={activeIndex}

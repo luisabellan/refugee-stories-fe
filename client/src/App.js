@@ -1,9 +1,14 @@
 import React from "react";
 import SignIn from "./components/signin/SignIn";
 import PrivateRoute from "./utils/PrivateRoute";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css"
+
+
 
 import Home from "./components/Home/Home";
-import Stories from "./components/stories/Stories";
+
+import Stories from "./components/Stories/Stories";
 
 import { Route } from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -20,8 +25,8 @@ function App() {
       <Navigation />
 
       <Route exact path="/" component={Home} />
-      <Route path="/Stories" component={Stories} />
-      <Route path="/Signin" component={SignIn} />
+      <Route path="/stories" component={Stories} />
+      <Route path="/signin" component={SignIn} />
       {/* 
       
       <PrivateRoute path="/" component={Home Comp}
