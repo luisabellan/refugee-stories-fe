@@ -21,4 +21,10 @@
   color: #dfaf05;
   border: 2.5px solid #dfaf05;
 }
+
+.button:hover {
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+}
 /*# sourceMappingURL=Home.css.map */
