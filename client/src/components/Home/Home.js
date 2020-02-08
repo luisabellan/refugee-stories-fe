@@ -2,9 +2,9 @@ import React from "react";
 import Carousel from "../Carousel/MyCarousel.js";
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
-import "./Home.css";
 import { borderRadius } from "@material-ui/system";
 import Button from 'react-bootstrap/Button'; 
+import "./Home.css";
 
 const Home = () => {
   const WrapperDiv = styled.div`
@@ -75,10 +75,12 @@ const Home = () => {
           tempora ipsum eveniet illo, dolor sed placeat, delectus adipisci
           consequuntur minus! Molestiae, nostrum!
         </Paragraph>
-        <Form action="./stories">
-          <StyledButton className="button" type="submit" value="Read More">
-            READ MORE
+        <Form action="./Stories">
+        <Link to="/Stories" style={ {textDecoration: 'none' }}>
+          <StyledButton  className="button" type="submit" value="Read More">
+          READ MORE
           </StyledButton>
+          </Link>
         </Form>
       </WrapperDiv>
       <Footer />

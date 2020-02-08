@@ -9,9 +9,12 @@
 
 .button {
   background-color: #fef9c7;
-
   color: darken($color: #fce181, $amount: 30%);
   border: 2.5px solid darken($color: #fce181, $amount: 30%);
 }
+.button:hover{
+text-decoration: none;
+text-decoration-style: none;
 
+}
 
