@@ -3,7 +3,7 @@ import axios from "axios";
 import Story from "./Story";
 
 
-import { footerdes, footerdes2, footerdes3, Footer } from "../Home/Home";
+import Footer from "../Footer/Footer";
 
 const Stories = () => {
   const [data, setData] = useState([]);
@@ -24,7 +24,7 @@ const Stories = () => {
           <Story str={story} />
         </div>
       ))}
-      <Footer />
+      <Footer style={{ }} />
     </div>
   );
 };
