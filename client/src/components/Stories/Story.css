@@ -21,6 +21,7 @@
   font-family: Ubuntu;
   text-align: justify;
   z-index: 1;
+  max-width: 50rem;
 }
 
 .story h1 {
