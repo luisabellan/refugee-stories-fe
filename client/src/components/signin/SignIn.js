@@ -13,12 +13,12 @@ import Grid from "@material-ui/core/Grid";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-import {footerdes,footerdes2,footerdes3,Footer} from "../Home/Home"; 
+import Footer from "../Footer/Footer"; 
 
 
 
-
-function Copyright() {
+{
+/* function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
@@ -27,12 +27,18 @@ function Copyright() {
     </Typography>
   );
 }
+ */}
 
 const useStyles = makeStyles(theme => ({
   root: {
-    height: "100vh"
+    height: "100vh",
+    display: "flex",
+    flexDirection:"column",
+    justifyContent: "center",
+    alignItems: "center",
+    alignSelf:"center"
   },
-  image: {
+/*  image: {
     backgroundImage: "url(https://source.unsplash.com/random)",
     backgroundRepeat: "no-repeat",
     backgroundColor:
@@ -41,12 +47,13 @@ const useStyles = makeStyles(theme => ({
         : theme.palette.grey[50],
     backgroundSize: "cover",
     backgroundPosition: "center"
-  },
+  }, */
   paper: {
     margin: theme.spacing(8, 4),
     display: "flex",
     flexDirection: "column",
     alignItems: "center"
+   
   },
   avatar: {
     margin: theme.spacing(8),
@@ -94,7 +101,7 @@ export default function SignIn() {
   {/* I added  cssbaseline for the whole app in App.js, otherwise the navbar texts size
    will be smaller on the sign up page than on the other pages  (feel free to delete this line and the next one) - Luis Abellan      */}
       {/* <CssBaseline /> */}
-      <Grid item xs={false} sm={4} md={7} className={classes.image} />
+     
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
           <Avatar className={classes.avatar}>
@@ -155,9 +162,9 @@ export default function SignIn() {
                 </Link>
               </Grid>
             </Grid>
-            <Box mt={5}>
+         {  /*  <Box mt={5}>
               <Copyright />
-            </Box>
+            </Box> */}
           </form>
         </div>
 

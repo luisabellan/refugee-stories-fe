@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { borderRadius } from "@material-ui/system";
 import Button from 'react-bootstrap/Button'; 
 import "./Home.css";
+import Footer from "../Footer/Footer"
 
 const Home = () => {
   const WrapperDiv = styled.div`
@@ -18,7 +19,11 @@ const Home = () => {
     font-family: Ubuntu;
     text-align: justify;
     padding: 1rem;
-    max-width: 46rem;
+    width:32.5rem;
+    @media (min-width:800px){
+      width:46rem;
+    }
+    
   `;
 
   const StyledButton = styled.button`
@@ -28,7 +33,7 @@ const Home = () => {
     width: 7rem;
     font-size: 1rem;
     padding: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     font-weight: 900;
     margin-bottom: 3rem;
     font-family: "Roboto";
@@ -89,29 +94,3 @@ const Home = () => {
 };
 
 export default Home;
-
-export const footerdes = {
-  display: "flex",
-  minHeight: "100vh",
-  flexDirection: "column"
-};
-export const footerdes2 = {
-  flex: "1"
-};
-
-export const footerdes3 = {
-  marginTop:"37px"
-
-};
-
-export const Footer = () => {
-  return (
-    <div style={footerdes3}>
-        <Button variant="outline-secondary">Copyright @ 2020</Button>
-        <Button variant="outline-secondary">Help</Button>
-        <Button variant="outline-secondary">About</Button>
-        <Button variant="outline-secondary">Refugee Connections</Button>
-      
-    </div>
-  );
-};
