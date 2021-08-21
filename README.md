@@ -44,7 +44,7 @@ Contact the authors:
 ## License
 [MIT] (https://opensource.org/licenses/MIT);
 
-MIT © [Luis Abellan](https://github.com/squarerobin)
+MIT © [Luis Abellan](https://github.com/luisabellan)
 
 MIT © [Anam](https://github.com/anam2091)
 
