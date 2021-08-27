@@ -34,7 +34,7 @@ npm start
 
 ## Contribute
 Contact the authors:
-* https://github.com/squarerobin
+* https://github.com/luisabellan
 * https://github.com/anam2091
 * https://github.com/nezlobnaya
 
