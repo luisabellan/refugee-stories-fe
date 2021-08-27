@@ -1,6 +1,6 @@
 
 # front-end
-React Developers here (Unit 2 &amp; 3)
+
 
 Deployed here: https://squarerobin-refugees-stories.netlify.com/
 
