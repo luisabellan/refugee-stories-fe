@@ -1,8 +1,9 @@
 
-# front-end
+# Refugees Stories
+
+Site where refugees can share their stories
 
 
-Deployed here: https://refugees-stories-984.netlify.app/
 
 [Refugee Stories - Product Canvas - Jan 2020 - Build Weeks](https://docs.google.com/document/d/11ZJG2zr8831Q2Dzesgtmju5iIGY1WCIAU19eFfR0NRE/edit?usp=sharing)
 
